@@ -1,6 +1,5 @@
 import { Button } from "@mui/material";
 import "./Navbar.css";
-import FingerprintOutlinedIcon from "@mui/icons-material/FingerprintOutlined";
 function Nav() {
   return (
     <div className="Nav">
