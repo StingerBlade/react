@@ -22,7 +22,7 @@ function Nav() {
       </div>
       <div className="divNav">
         <Button size="large" color="error">
-          Cerrar sesion
+          Registrarse
         </Button>
       </div>
     </div>

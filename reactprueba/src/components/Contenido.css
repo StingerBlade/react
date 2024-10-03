@@ -1,20 +1,37 @@
-.content{
+.content {
     width: 100%;
     margin-top: 2%;
     background-color: #1C1C1C;
     height: 69vh;
     border-radius: 0.5cm;
-
 }
 
-.divM{
+.divM {
     display: flex;
     flex-direction: row;
-
+    width: 100%;
+    height: 50%;
+    justify-content: space-around;
 }
 
-.divN{
-    width: 50%;
+.divN {
+    width: 45%;
+    height: 80%;
+    margin-top: 2%;
     background-color: #141414;
+    border: 0.1cm solid #141414;
+    border-radius: 0.5cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Esto evitará que la imagen se salga */
+    position: relative; /* Para asegurarse que la imagen no sobrepase */
+}
 
+.divN img {
+    width: 80%;
+    height: 20%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
 }
