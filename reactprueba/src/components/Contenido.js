@@ -19,7 +19,9 @@ function Contenido() {
             className="img"
             />
         </div>
-        <div className="textimage"></div>  
+        <div className="textimage">
+          <p className="">Encuentra informacion de un sitio web como subdominios etc</p>
+          </div>  
         </div>
       </div>
       <div className="divM">

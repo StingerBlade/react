@@ -7,7 +7,7 @@ function Nav() {
         <img
           src="/spider-white.png"
           alt="logo exploitdb"
-          style={{ width: "30%", height: "auto" }}
+          style={{ width: "30%", height: "auto", alignSelf:"center" }}
         />
       </div>
 
@@ -21,7 +21,7 @@ function Nav() {
         <Button size="large">Home</Button>
       </div>
       <div className="divNav">
-        <Button size="large" color="error">
+        <Button size="large" color="error" href="login">
           Registrarse
         </Button>
       </div>
